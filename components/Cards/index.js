@@ -45,8 +45,10 @@ function Article(articleInfo) {
 
 axios.get("https://lambda-times-backend.herokuapp.com/articles")
   .then(res => {
-    const articles = res.data["articles"]["javascript"];
-    articles.forEach(articleInfo => {
-      articleContainer.appendChild(Article(articleInfo));
+    const articles = res.data["articles"];
+    Object.keys(articles).forEach(key => {
+      articles[key].forEach(articleInfo => {
+          articleContainer.appendChild(Article(articleInfo));
+      });
     });
   });
