@@ -42,7 +42,7 @@ The user-defined function that is called when an event fires
 
 4. Why would we convert a NodeList into an Array?
 
-To make the Array methods/properties avaialable to the Nodes in the NodeList
+To make the Array methods/properties avaialable to an array of Nodes from the NodeList
 
 5. What is a component?
 
