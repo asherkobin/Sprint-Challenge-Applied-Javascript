@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The structure and layout of an HTML page.  Enables the HTML content to be programatically accessable
+
 2. What is an event?
+
+A user action within the confines of the HTML page that calls a user-defined function
 
 3. What is an event listener?
 
+The user-defined function that is called when an event fires
+
 4. Why would we convert a NodeList into an Array?
 
+To make the Array methods/properties avaialable to the Nodes in the NodeList
+
 5. What is a component?
+
+A stand-alone JavaScript function or object that can be reused (avoids writing duplicate code)
 
 ### Git Set up
 
